@@ -213,6 +213,11 @@ public class Main {
 //            sum = sum + n*k;
 //        }
 //        System.out.println(sum);
+        
+        
+//         Java Tutorial: Introduction to Arrays
+//        An array is a collection of similar types of data.
+//
 
         
 
