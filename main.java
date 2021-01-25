@@ -219,7 +219,22 @@ public class Main {
 //        An array is a collection of similar types of data.
 //
 
-        
+    //        Use Case: Storing marks of 5 students
+//        int [] marks = new int[5]; //Declaration + Memory allocation!
+//        marks[0] = 10;
+//        marks[1] = 20;
+//        marks[2] = 30;
+//        marks[3] = 40;
+
+        int[] marks = {100,70,80,71,98}; // Declare + Initialize!
+        System.out.println(marks[3]);
+
+//        Array indices start from 0 and go till (n-1) where n is the size of the array.
+//
+//        Array length
+//        Arrays have a length property which gives the length of the array.
+        System.out.println(marks.length); //Gives 5 if marks is a reference to an array with 5 elements
+    
 
 
 
