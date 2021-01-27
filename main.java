@@ -1,6 +1,17 @@
 package com.company;
 import java.util.*;
 
+// Custom  Class
+class Employee{
+    int id;
+    String name;
+    public void printDetails(){
+        System.out.println("My Name is "+name);
+        System.out.println("and is is "+id);
+
+    }
+}
+
 public class Main {
 // VarArgs
     //    Normal way for method declaration
@@ -269,6 +280,33 @@ static int sum(int ...arr){
 //  Phone           →        Smart Phone
 // 4.Polymorphism – One entity many forms
 // Smartphone → Phone                   Smartphone → Calculator
+        
+        //      Creating Our Own Java Class
+        System.out.println("This is our custom class");
+        Employee sagar = new Employee(); ///instantiating a new Employee Object
+        //Setting properties
+        sagar.id = 111;
+        sagar.name ="sagar";
+
+//        Printing the properties and attributes
+        System.out.println(sagar.id);
+        System.out.println(sagar.name);
+
+        sagar.printDetails();
+
+        // New object
+        Employee john = new Employee();This is our custom class
+        john.name = "John";
+        john.id = 12;
+        john.printDetails();
+        
+//         Answer
+// 111
+// sagar
+// My Name is sagar
+// and is is 111
+// My Name is John
+// and is is 12
         
         
 
