@@ -2,7 +2,23 @@ package com.company;
 import java.util.*;
 
 public class Main {
-
+// VarArgs
+    //    Normal way for method declaration
+//    static  int sum(int a ,int b){
+//        return a+b;
+//    }
+//
+//    static  int sum(int a ,int b ,int c){
+//        return a+b+c;
+//    }
+static int sum(int ...arr){
+//    available as int [] arr;
+    int result =0;
+    for(int a:arr){
+        result += a;
+    }
+    
+    
     public static void main(String[] args) {
         // write your code here
 //        System.out.println("Papa");
@@ -234,6 +250,12 @@ public class Main {
 //        Array length
 //        Arrays have a length property which gives the length of the array.
         System.out.println(marks.length); //Gives 5 if marks is a reference to an array with 5 elements
+        
+        
+        System.out.println("Welcome to Vargs Tutorial");
+        System.out.println("The sum of 4 and 5 is : " + sum(4,5));
+        System.out.println("The sum of 4 and 5 is : " + sum(4,5,8));
+
     
 
 
