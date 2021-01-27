@@ -1,7 +1,7 @@
 package com.company;
 import java.util.*;
 
-// Custom  Class
+// Custom  Class  cannot write public in front of class Employee as only 1 public class can be there .
 class Employee{
     int id;
     String name;
