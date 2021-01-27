@@ -269,6 +269,8 @@ static int sum(int ...arr){
 //  Phone           →        Smart Phone
 // 4.Polymorphism – One entity many forms
 // Smartphone → Phone                   Smartphone → Calculator
+        
+        
 
 
 
