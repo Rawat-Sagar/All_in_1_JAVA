@@ -251,10 +251,12 @@ static int sum(int ...arr){
 //        Arrays have a length property which gives the length of the array.
         System.out.println(marks.length); //Gives 5 if marks is a reference to an array with 5 elements
         
-        
+//       Var Args tutorial  
         System.out.println("Welcome to Vargs Tutorial");
         System.out.println("The sum of 4 and 5 is : " + sum(4,5));
         System.out.println("The sum of 4 and 5 is : " + sum(4,5,8));
+        System.out.println("The sum of 1 is : " + sum(1));  //ans:1
+        System.out.println("The sum of Nothing is : " + sum()); //ans :0
 
     
 
