@@ -12,6 +12,24 @@ class Employee{
     }
 }
 
+// Access Modifiers and Getters
+class MyEmployee{
+    private int id;
+    private String name;
+    public void setName(String n){
+        name = n;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setId(int j){
+        id =j;
+    }
+    public int getId(){
+        return id;
+    }
+}
+
 public class Main {
 // VarArgs
     //    Normal way for method declaration
@@ -307,6 +325,19 @@ static int sum(int ...arr){
 // and is is 111
 // My Name is John
 // and is is 12
+        
+        
+        // Access Modifiers and Getters
+        MyEmployee emp = new MyEmployee();
+        emp.setName("Sagar Rawat");
+        System.out.println(emp.getName());
+        emp.setId(152);
+        System.out.println(emp.getId());
+        
+//         Answer
+// Sagar Rawat
+// 152
+
         
         
 
