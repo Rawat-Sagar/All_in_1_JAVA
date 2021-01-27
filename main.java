@@ -259,8 +259,16 @@ static int sum(int ...arr){
         System.out.println("The sum of Nothing is : " + sum()); //ans :0
 
     
-
-
+// Java Tutorial: Basic Terminologies in Object Oriented Programming
+// OOPs Terminology
+// 1.Abstraction – Hiding internal details [show only essential info!]
+// 2.Encapsulation – The act of putting various components together (in a capsule).
+// In Java, encapsulation simply means that sensitive data can be hidden from the users.
+// 3.Inheritance – The act of deriving new things from existing things.
+//  Rickshaw      →        E-Rickshaw
+//  Phone           →        Smart Phone
+// 4.Polymorphism – One entity many forms
+// Smartphone → Phone                   Smartphone → Calculator
 
 
 
