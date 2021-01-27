@@ -30,6 +30,31 @@ class MyEmployee{
     }
 }
 
+// Constructors
+class MymainEmployee{
+    private int id;
+    private String name;
+
+    public MymainEmployee(){
+        id = 45;
+        name = "Your-Name-Here";
+    }
+    public void setName(String n){
+        name = n;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setId(int j){
+        id =j;
+    }
+    public int getId(){
+        return id;
+    }
+}
+
+
+
 public class Main {
 // VarArgs
     //    Normal way for method declaration
@@ -337,6 +362,14 @@ static int sum(int ...arr){
 //         Answer
 // Sagar Rawat
 // 152
+        
+        //        Constructors
+        MymainEmployee emp1 = new MymainEmployee();
+        System.out.println(emp1.getName());
+        System.out.println(emp1.getId());
+// Answer
+// Your-Name-Here
+// 45
 
         
         
